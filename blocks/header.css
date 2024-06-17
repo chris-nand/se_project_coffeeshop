@@ -34,14 +34,14 @@
   margin: 28px 0 0;
   font-weight: normal;
   font-style: normal;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, Sans-serif;
   position: relative;
   z-index: 2;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, Sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
