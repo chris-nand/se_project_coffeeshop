@@ -38,6 +38,8 @@
 .about__content {
   margin-top: 19px;
   max-width: 660px;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   color: #fff;
   font-family: "Noto Serif", Arial, Sans-serif;
@@ -48,10 +50,7 @@
 .about__paragraph {
   font-size: 20px;
   line-height: 30px;
-}
-
-.about__paragraph:last-child {
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .about__circle {
@@ -60,17 +59,12 @@
   background-color: #2f80ed;
   border-radius: 50%;
   position: absolute;
-  top: -80px;
+  top: -152px;
   left: -129px;
   z-index: 0;
 }
 
 .about__circle_animation_blurred {
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: absolute;
   top: -80px;
   left: -129px;
   z-index: 0;
